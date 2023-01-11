@@ -44,3 +44,18 @@ h3 {
     padding: 10px;
     margin: 20px;
 }
+
+.btn-play {
+    color: var(--primary-color);
+    background-color: #E5E5CB;
+    font-family: var(--font-family);
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 0.7em;
+    margin-top: 3em;
+    transition: 0.5s;
+}
+
+.btn-play:hover {
+    transform: scale(1.2);
+}

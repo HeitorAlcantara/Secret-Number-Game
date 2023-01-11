@@ -1,5 +1,5 @@
 const minValue = 1;
-const maxValue = 100;
+const maxValue = 1000;
 const secretNumber = randomNumber();
 
 function randomNumber () {

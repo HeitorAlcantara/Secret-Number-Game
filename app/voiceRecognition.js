@@ -17,7 +17,7 @@ function showMessage(message) {
     divGuess.innerHTML = `
             <div>You said:</div>
             <span class="box">${message}</span>
-        `
+        `;
 }
 
 recognition.addEventListener("end", () => recognition.start());
